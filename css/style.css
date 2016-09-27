@@ -1,0 +1,93 @@
+*{
+  padding: 0;
+  margin:0;
+}
+body{
+     background-color: white;
+     background-size: cover;
+     background-image: url("../img/default.jpg");
+     background-repeat: no-repeat;
+     background-position: center;
+     background-color: white;
+     font-family: 'PingFang SC', 'HanHei SC','Helvetica Neue', 'Helvetica', 'STHeitiSC-Light', 'Arial', sans-serif;
+      }
+.history{
+    background-color: rgba(255,255,255,0.25);
+    width: 30%;
+    display: inline-block;
+}
+.container{
+     text-align: center;
+     height: 100%;
+    }
+.circle{
+  width: 100%;
+  height: 335px;
+  filter:alpha(opacity=65);
+  opacity: 0.65;
+}
+
+
+#data1{
+  font-size:75px;
+  color: white;
+  font-family:'Helvetica Neue';
+}
+
+#data2,#data3{
+  display: inline-block;
+  font-size: 17px;
+  color: white;
+}
+
+.icon{
+  position: relative;
+  width: 13px;
+  height: 13px;
+}
+
+.temp{position: absolute;
+      left:0;
+      right: 0;
+      text-align: center;
+      top: 135px;
+      }
+
+.hum{
+  position: absolute;
+  left:0;
+  right: 0;
+  text-align: center;
+  top: 228px;
+}
+
+#btn{display: block;
+     color: white;
+     text-decoration:none;
+     width: 140px;
+     height: 45px;
+     line-height: 45px;
+     font-size: 18px;
+     border: none;
+     border-radius:18px;
+     background-color: #00aef4;
+     margin: 0 auto;  
+}
+
+#sentence{text-align: center;
+  color: white;
+  margin-top: 55px;
+  font-size: 10px;
+  filter:alpha(opacity=60);
+  opacity: 0.6;
+  }
+
+#logo{display: block;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 25px;    
+    filter:alpha(opacity=80);
+    opacity: 0.8;
+    width: 40px;
+    height: 18px;
+    }
