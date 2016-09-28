@@ -11,7 +11,6 @@ $temperature = $_GET["temperature"];
 $humidity = $_GET["humidity"];
 $lightness = $_GET["lightness"];
 echo $temperature;
-    $conn = @mysql_connect('115.28.144.64', 'root', 'lh920225');
     if (!$conn) {
         die("failed");
     }
@@ -23,7 +22,7 @@ if(empty($temperature)||empty($humidity)||empty($lightness)){
     $temperature_new = $result_arr['temperature'];
     $humidity_new = $result_arr['humidity'];
     $lightness_new = $result_arr['lightness'];
-    echo $temperature_new."�¶�";
+    echo $temperature_new."ÎÂ¶È";
     $insert ="insert into  weatherdata values('','1','$temperature_new','$humidity_new','$lightness_new')";
 }
 else{
