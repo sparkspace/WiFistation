@@ -10,7 +10,6 @@
 $temperature = $_GET["temperature"];
 $humidity = $_GET["humidity"];
 $lightness = $_GET["lightness"];
-echo $temperature;
     if (!$conn) {
         die("failed");
     }
