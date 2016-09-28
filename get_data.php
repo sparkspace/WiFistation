@@ -10,6 +10,7 @@
 $temperature = $_GET["temperature"];
 $humidity = $_GET["humidity"];
 $lightness = $_GET["lightness"];
+    $conn = @mysql_connect('host_address', 'host_name', 'host_password');
     if (!$conn) {
         die("failed");
     }
