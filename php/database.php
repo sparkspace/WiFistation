@@ -42,7 +42,7 @@
 
     }
     function weather(){
-        $url = 'http://api.map.baidu.com/telematics/v3/weather?location=beijing&output=json&ak=AeRn2QES27pNjgo0DGzG048XZaEz6uyw';
+        $url = 'http://api.map.baidu.com/telematics/v3/weather?location=beijing&output=json&ak=yourownkey';
         $html = file_get_contents($url);
         $weather_array = json_decode($html,true);
         $weather_info =  $weather_array['results'][0]['weather_data'][0]['weather'];
