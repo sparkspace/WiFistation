@@ -1,7 +1,6 @@
 ﻿<?php
 
     function connectDB(){
-    $conn = @mysql_connect('115.28.144.64', 'root', 'lh920225');
     if (!$conn) {
         die("failed");
     }
