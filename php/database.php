@@ -1,6 +1,7 @@
 ﻿<?php
 
     function connectDB(){
+        $conn = @mysql_connect('host_address', 'host_name', 'password');
     if (!$conn) {
         die("failed");
     }
