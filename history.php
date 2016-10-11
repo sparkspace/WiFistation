@@ -38,12 +38,13 @@ while($rows=mysql_fetch_array($result_ill)){         //$rows是数组
     $json_ill = json_encode($result_ill_arr);       //转化为json格式
     $status = weather();                        //更换背景图片
 ?>
+<!--以上为php数据处理，以下为html页面显示-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>气象站</title>
-    <script src="js/echarts.js"></script>
+    <script src="js/echarts.js"></script>     <!--调用echarts库-->
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body style="background-image: url('img/<?=$status?>.jpg')">
